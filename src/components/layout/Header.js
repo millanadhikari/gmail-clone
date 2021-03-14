@@ -1,5 +1,4 @@
 import React from 'react'
-import './Header.css'
 import styled from 'styled-components'
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
@@ -23,7 +22,6 @@ function Header() {
            <SearchWrapper>
                <SearchBarWrapper>
                    <SearchIconWrapper/>
-                   {/* <SearchIcon/> */}
                    <input type="text" placeholder="Search mail"/>
                     <ArrowDropDownIcon/>
 
